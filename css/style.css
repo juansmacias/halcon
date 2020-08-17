@@ -1,0 +1,192 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.material-icons {
+  font-size: 48px;
+  color: #edaa26;
+}
+
+.div-hcn-benefits {
+  background-color: #16406b;
+  margin: 0 auto;
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+.bg-hcn-red {
+  background-image: url("../assets/fondo-4.svg");
+}
+
+.bg-hcn-campo {
+  background-image: url("../assets/AdobeStock_270874619.png");
+  background-size: cover;
+}
+
+.bg-hcn-line-puas {
+  background-image: url("../assets/Group-374.svg");
+  background-size: cover;
+}
+
+.footer-hcn {
+  background-color: #001a40;
+  color: #fff;
+}
+
+@media screen and (min-width: 300px) {
+  .text-giant {
+    font-size: 40px;
+  }
+
+  .text-grey {
+    color: #ece6e6;
+  }
+
+  .image-puas {
+    width: 70%;
+  }
+
+  .img-hcn-ayuda{
+      width: 80%;
+  }
+
+  .margin-bottom-div {
+    margin-bottom: 50px !important;
+  }
+
+  .div-form {
+    padding: 15px;
+  }
+
+  .btn-halcon {
+    width: 90%;
+  }
+
+  .div-submit {
+    margin-bottom: -90px;
+  }
+
+  .img-hcn-yellow {
+    margin-top: -180px;
+  }
+
+  .footer-hcn {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .div-hcn-center {
+    text-align: center;
+  }
+
+  .bg-hcn-campo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .div-hcn-benefits {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body,
+  h6 {
+    font-size: 16px;
+  }
+
+  .div-hcn-principal{
+    float: right;
+  }
+
+  .nav-icono {
+    margin-left: 145px;
+  }
+
+  .nav-hcn-item {
+    margin-right: -80px;
+  }
+
+  .nav-hcn-button {
+    margin-right: 145px;
+  }
+
+  .test {
+    margin-top: 100px;
+  }
+
+  .text-giant {
+    font-size: 62px;
+  }
+
+  .margin-image {
+    margin-top: 400px;
+  }
+
+  .text-hcn-white {
+    color: #fff;
+  }
+
+  .image-puas {
+    width: 50%;
+  }
+
+  .img-hcn-ayuda{
+    width: 80%;
+}
+
+  .margin-bottom-div {
+    margin-bottom: 100px !important;
+  }
+
+  .div-form {
+    padding: 40px;
+  }
+
+  .btn-halcon {
+    width: initial;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
+  .div-submit {
+    margin-bottom: -120px;
+  }
+
+  .img-hcn-yellow {
+    margin-top: 0px;
+  }
+
+  .footer-hcn {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .div-hcn-center {
+    text-align: left;
+  }
+
+  .bg-hcn-campo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .div-hcn-benefits {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
+  .img-hcn-yellow {
+    margin-top: -285px;
+  }
+}
