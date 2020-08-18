@@ -23,6 +23,11 @@ a {
   background-size: cover;
 }
 
+.bg-hcn-yellow {
+  background-image: url("../assets/fondo-2.svg");
+  background-size: cover;
+}
+
 .bg-hcn-campo {
   background-image: url("../assets/AdobeStock_270874619.png");
   background-size: cover;
@@ -71,9 +76,9 @@ a {
     margin-bottom: -90px;
   }
 
-  .img-hcn-yellow {
+  /* .img-hcn-yellow {
     margin-top: -180px;
-  }
+  } */
 
   .footer-hcn {
     padding-left: 40px;
@@ -164,9 +169,9 @@ a {
     margin-bottom: -120px;
   }
 
-  .img-hcn-yellow {
+  /* .img-hcn-yellow {
     margin-top: 0px;
-  }
+  } */
 
   .footer-hcn {
     padding-left: 160px;
@@ -193,8 +198,8 @@ a {
   }
 }
 
-@media screen and (min-width: 1500px) {
+/* @media screen and (min-width: 1500px) {
   .img-hcn-yellow {
     margin-top: -285px;
   }
-}
+} */
