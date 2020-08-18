@@ -18,22 +18,19 @@
 </head>
 
 <body>
-    <!-- Just an image -->
-    <!-- <div style="position: absolute;"><img src="./assets/fondo.svg" width="100%" alt=""></div> -->
 
     <nav class="navbar navbar-light justify-content-around sticky-top" style="background-color: #E2E4E7;">
         <a class="navbar-brand nav-icono" href="#">
             <img src="./assets/LOGO HALCÓN-01.png" width="60" alt="" loading="lazy">
         </a>
 
-        <a class="nav-link nav-hcn-item" href="#"><strong>Inicio</strong></a>
+        <a class="nav-link nav-hcn-item" href="./index.html"><strong>Inicio</strong></a>
         <a class="nav-link nav-hcn-item" href="./product.html"><strong>Producto</strong></a>
-        <button class="btn btn-warning my-2 my-sm-0 px-5 rounded-pill nav-hcn-button" type="submit">
+        <a class="btn btn-warning my-2 my-sm-0 px-5 rounded-pill nav-hcn-button" href="#sectionContactForm">
             <strong>Quiero ser Distribuidor</strong>
-        </button>
+        </a>
         </div>
     </nav>
-
 
     <section class="" id=" sectionBanner">
         <img class="img img-fluid" style="position: absolute;" src="./assets/fondo.svg" alt="">
@@ -41,21 +38,22 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="div-hcn-principal">
-                        <p class="float-lg-right text-giant test text-grey text-hcn-white">Con <strong>HALCÓN</strong><br>
+                        <p class="float-lg-right text-giant test text-hcn-main">Con
+                            <strong>HALCÓN</strong><br>
                             puedes<br>
                             cumplir
                             todos<br>tus
                             <strong>objetivos</strong>
                             <br>
                         </p>
-                        <p class="text-grey">La comunidad Halcón protege tu negocio y
+                        <p class="text-hcn-main">La comunidad Halcón protege tu negocio y
                             <br>
                             atiende tus más grandes deseos
                         </p>
-                        <button class="btn btn-warning my-2 my-sm-0 px-5 rounded-pill d-none d-md-block"
-                            type="submit">
+                        <a class="btn btn-warning my-2 my-sm-0 px-5 rounded-pill d-none d-md-block" style="width: 69%;"
+                            href="#sectionContactForm">
                             <strong>Quiero ser Distribuidor</strong>
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm text-center text-md-left">
@@ -72,9 +70,9 @@
                         whisky y más barato que el polvo”. Exactamente como lo dijo el pionero John Warner Gates.
                     </p>
                     <div class="mt-5">
-                        <button class="btn btn-outline-danger my-2 my-sm-0 px-5 rounded-pill">
+                        <a class="btn btn-outline-danger my-2 my-sm-0 px-5 rounded-pill" href="./product.html">
                             Características del Producto
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -192,9 +190,11 @@
     <footer class="footer footer-hcn">
         <div class="row">
             <div class="col-12 col-md-4">
-                <h5><a href="">INICIO</a></h5>
+                <h5><a href="./index.html">INICIO</a></h5>
                 <br>
-                <h5><a href="">PRODUCTO</a></h5>
+                <h5><a href="./product.html">PRODUCTO</a></h5>
+                <br>
+                <br>
             </div>
             <div class="col-12 col-md-4">
                 <h5>Contacto</h5>
@@ -202,6 +202,8 @@
                 <p>Teléfono: +57 310 3448000</p>
                 <p>Correo electrónico: comercial@amym.co <br>
                     info@amym.co</p>
+                <br>
+                <br>
             </div>
             <div class="col-12 col-md-4">
                 <h5>Ubicación</h5>
@@ -219,24 +221,27 @@
             </div>
         </div>
         <div class="div-hcn-center">
-            <button class="btn btn-warning my-2 my-sm-0 px-5 rounded-pill nav-hcn-button" type="submit">
+            <a class="btn btn-warning my-2 my-sm-0 px-5 rounded-pill nav-hcn-button" href="#sectionContactForm">
                 <strong>Quiero ser Distribuidor</strong>
-            </button>
+            </a>
         </div>
     </footer>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+
+    <script src="./js/anchor-scroll-with-offset.js"></script>
 </body>
 
 </html>

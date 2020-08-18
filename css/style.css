@@ -20,6 +20,7 @@ a {
 
 .bg-hcn-red {
   background-image: url("../assets/fondo-4.svg");
+  background-size: cover;
 }
 
 .bg-hcn-campo {
@@ -42,7 +43,7 @@ a {
     font-size: 40px;
   }
 
-  .text-grey {
+  .text-hcn-main {
     color: #ece6e6;
   }
 
@@ -50,8 +51,8 @@ a {
     width: 70%;
   }
 
-  .img-hcn-ayuda{
-      width: 80%;
+  .img-hcn-ayuda {
+    width: 80%;
   }
 
   .margin-bottom-div {
@@ -93,6 +94,10 @@ a {
   .div-hcn-benefits {
     width: 80%;
   }
+
+  .div-hcn-center-sm {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -101,7 +106,7 @@ a {
     font-size: 16px;
   }
 
-  .div-hcn-principal{
+  .div-hcn-principal {
     float: right;
   }
 
@@ -129,7 +134,7 @@ a {
     margin-top: 400px;
   }
 
-  .text-hcn-white {
+  .text-hcn-main {
     color: #fff;
   }
 
@@ -137,9 +142,9 @@ a {
     width: 50%;
   }
 
-  .img-hcn-ayuda{
+  .img-hcn-ayuda {
     width: 80%;
-}
+  }
 
   .margin-bottom-div {
     margin-bottom: 100px !important;
@@ -182,10 +187,13 @@ a {
   .div-hcn-benefits {
     width: 50%;
   }
+
+  .div-hcn-center-sm {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1500px) {
-
   .img-hcn-yellow {
     margin-top: -285px;
   }
