@@ -6,7 +6,7 @@
       location.hostname == this.hostname
     ) {
       var target = $(this.hash),
-        headerHeight = $(".navbar").height() + 60; // Get fixed header height
+        headerHeight = $(".navbar").height() + 14; // Get fixed header height
 
       target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
 
