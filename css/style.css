@@ -43,6 +43,11 @@ a {
   color: #fff;
 }
 
+.hbspt-form {
+  /* background-color: pink; */
+  overflow: auto;
+}
+
 @media screen and (min-width: 300px) {
   .text-giant {
     font-size: 40px;
