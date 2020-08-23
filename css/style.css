@@ -43,6 +43,11 @@ a {
   color: #fff;
 }
 
+.btn-hcn-whatsapp > a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* .hbspt-form {
   overflow: auto;
 } */
