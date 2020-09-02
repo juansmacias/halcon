@@ -112,6 +112,10 @@ a {
   .div-hcn-center-sm {
     text-align: center;
   }
+
+  .div-cam-camaleon {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -205,10 +209,54 @@ a {
   .div-hcn-center-sm {
     text-align: left;
   }
+
+  .div-cam-camaleon {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
-/* @media screen and (min-width: 1500px) {
-  .img-hcn-yellow {
-    margin-top: -285px;
-  }
-} */
+@font-face {
+  font-family: "ALLEGIANT REGULAR";
+  font-style: normal;
+  font-weight: normal;
+  src: local("ALLEGIANT REGULAR"),
+    url("../assets/fonts/allegiant/Allegiant-Regular.woff") format("woff");
+}
+
+.font-cam-camaleon {
+  font-family: "Allegiant Regular";
+}
+
+.letter-cam-pink {
+  color: #ef1e7a;
+}
+
+.letter-cam-orange {
+  color: #f7931e;
+}
+
+.letter-cam-salmon {
+  color: #fbb03e;
+}
+
+.letter-cam-yellow {
+  color: #fff103;
+}
+
+.letter-cam-lemon {
+  color: #d6df22;
+}
+
+.letter-cam-grass {
+  color: #8bc73d;
+}
+
+.letter-cam-green {
+  color: #3ab549;
+}
+
+.letter-cam-blue {
+  color: #03aeef;
+}
